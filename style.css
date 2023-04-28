@@ -1,0 +1,87 @@
+html{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+}
+
+body {
+	background-color: white;
+}
+
+nav{
+	background-color: #071022;
+}
+
+nav img{
+	width: 50px;
+	margin-right: 1rem;
+}
+
+.navbar{
+	position: sticky;
+	top: 0;
+	z-index: 1000;
+}
+
+nav span{
+	font-family: "Oswald", serif;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 35px;
+}
+
+#navbarchoice{
+	font-size: 20px;
+}
+
+h1{
+	font-family: "Oswald", serif;
+	font-weight: 700;
+	font-size: 3rem;
+}
+
+p{
+	font-size: 20px;
+}
+
+#home h1{
+	color: #0e1f43 !important;
+}
+
+#profilepic{
+	width: 50%; 
+}
+
+#ds{
+	background-color: black;
+}
+
+#contactme{
+	background-color: #071022;
+}
+
+#aboutme img{
+	width: 200px;
+	height: 180px;
+}
+
+#cert .flex-column{
+	max-width: 500px;
+}
+
+#educ .bg-base{
+	max-width: 500px;
+}
+
+footer {
+	color: white;
+    text-align: center;
+    padding: 20px;
+    background-color: #071022;
+}
+
+footer span {
+    display: inline-block;
+    margin: 0 5px;
+}
